@@ -1,0 +1,8 @@
+// ==UserScript==
+// @name AnkiMultitran
+// @namespace AnkiMultitran
+// @include http://www.multitran.ru/c/m.exe*
+// @version 1.0.0
+// @grant GM_addStyle
+// @grant GM_xmlhttpRequest
+// ==/UserScript==

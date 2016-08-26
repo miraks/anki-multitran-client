@@ -1,0 +1,5 @@
+/node_modules
+/build
+npm-debug.log
+user-js-path.txt
+src/env.js

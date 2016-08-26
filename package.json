@@ -1,0 +1,26 @@
+{
+  "name": "anki-multitran",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Alexey Volodkin",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "node watch.js & npm run build -- --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-latest": "^6.14.0",
+    "css-loader": "^0.24.0",
+    "eslint": "^3.3.1",
+    "eslint-config-airbnb-base": "^5.0.3",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.14.0",
+    "node-sass": "^3.8.0",
+    "sass-loader": "^4.0.0",
+    "webpack": "^1.13.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "greasemonkey": true
+  },
+  "parser": "babel-eslint",
+  "plugins": [
+    "babel"
+  ],
+  "extends": [
+    "airbnb-base"
+  ],
+  "rules": {
+    "semi": ["error", "never"],
+    "comma-dangle": ["error", "never"],
+    "new-cap": ["off"],
+    "max-len": ["error", 120],
+    "no-alert": ["off"],
+    "consistent-return": ["off"],
+    "no-param-reassign": ["off"],
+    "generator-star-spacing": ["off"],
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+  }
+}
